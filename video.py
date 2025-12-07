@@ -159,9 +159,9 @@ def visualize_results_without_probs(frame, outputs):
 
 if __name__ == "__main__":
     # Rutas de los archivos
-    model_path = "my_model.pt"  # Cambiar a la ruta correcta
-    video_path = "video_final.mp4"    # Cambiar a la ruta correcta
-    output_path = "video_zipaq.mp4"  # Cambiar a la ruta deseada
+    model_path = "yolo_cartagena.pt"  # Cambiar a la ruta correcta
+    video_path = "yolo_cartagena.mp4"    # Cambiar a la ruta correcta
+    output_path = "yolo_cartagena_contorno.mp4"  # Cambiar a la ruta deseada
     
     # Comprobar si existen los archivos
     if not os.path.exists(model_path):

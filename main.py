@@ -144,9 +144,9 @@ def visualize_results(frame, outputs):
 
 if __name__ == "__main__":
     # Rutas de los archivos
-    model_path = "dataset_ocr.pt"  # Cambiar a la ruta correcta
-    video_path = "uptrain.mp4"    # Cambiar a la ruta correcta
-    output_path = "video_analizado.mp4"  # Cambiar a la ruta deseada
+    model_path = "bnsf_model.pt"  # Cambiar a la ruta correcta
+    video_path = "bnsf_types_dataset.mp4"    # Cambiar a la ruta correcta
+    output_path = "bnsf_types_boxes.mp4"  # Cambiar a la ruta deseada
     
     # Comprobar si existen los archivos
     if not os.path.exists(model_path):
